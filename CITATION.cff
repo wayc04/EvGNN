@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Citation metadata for the associated paper."
+title: "Evidence-guided Learning against Noisy and Sparse Labels on Graphs"
+authors:
+  - family-names: Yi
+    given-names: Siyu
+  - family-names: Zhang
+    given-names: Wei
+  - family-names: Mao
+    given-names: Zhengyang
+  - family-names: Zhou
+    given-names: Yongdao
+  - family-names: Qiao
+    given-names: Ziyue
+  - family-names: Shen
+    given-names: Li
+  - family-names: Tao
+    given-names: Dacheng
+  - family-names: Lv
+    given-names: Jiancheng
+  - family-names: Ju
+    given-names: Wei
+journal: "Artificial Intelligence"
+year: 2026
+date-released: 2026-09-02
+url: "https://www.sciencedirect.com/science/article/pii/S0004370226001347"
