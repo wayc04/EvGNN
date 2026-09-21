@@ -4,9 +4,9 @@ Official implementation for **EvGNN**, the evidence-guided graph neural network 
 
 This repository is a cleaned research release of the code for:
 
-> Siyu Yi, Wei Zhang, Zhengyang Mao, Yongdao Zhou, Ziyue Qiao, Li Shen, Dacheng Tao, Jiancheng Lv, and Wei Ju.
-> ** Evidence-guided Learning against Noisy and Sparse Labels on Graphs **
-> Artificial Intelligence
+> Siyu Yi, Wei Zhang, Zhengyang Mao, Yongdao Zhou, Ziyue Qiao, Li Shen, Dacheng Tao, Jiancheng Lv, and Wei Ju. <br>
+> **Evidence-guided Learning against Noisy and Sparse Labels on Graphs.** <br>
+> Artificial Intelligence.
 
 EvGNN trains a multi-expert graph neural network under sparse and noisy supervision. It estimates evidence and uncertainty with subjective logic, fuses expert decisions with Dempster-Shafer evidence theory, and uses consistency learning plus pseudo-labeling to improve supervision from unlabeled nodes.
 
