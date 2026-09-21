@@ -1,11 +1,6 @@
-# EvGNN
+# 🧭 EvGNN
 
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white">
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-1.10%2B-EE4C2C?logo=pytorch&logoColor=white">
-  <img alt="PyG" src="https://img.shields.io/badge/PyG-2.0%2B-3C2179">
-  <img alt="Task" src="https://img.shields.io/badge/Task-Node%20Classification-2E7D32">
-  <img alt="Datasets" src="https://img.shields.io/badge/Datasets-6-1565C0">
   <img alt="Paper" src="https://img.shields.io/badge/Paper-Artificial%20Intelligence-8E24AA">
 </p>
 
@@ -17,7 +12,7 @@ This repository is a cleaned research release of the code for:
 
 EvGNN trains a multi-expert graph neural network under sparse and noisy supervision. It estimates evidence and uncertainty with subjective logic, fuses expert decisions with Dempster-Shafer evidence theory, and uses consistency learning plus pseudo-labeling to improve supervision from unlabeled nodes.
 
-## Highlights
+## ✨ Highlights
 
 - Robust semi-supervised node classification with sparse and noisy labels.
 - Multi-view expert architecture with evidence-aware uncertainty estimation.
@@ -25,7 +20,7 @@ EvGNN trains a multi-expert graph neural network under sparse and noisy supervis
 - Consistency and pseudo-label regularization for unlabeled nodes.
 - Reproducible experiment presets for Citeseer, PubMed, DBLP, Coauthor CS, Amazon Computers, and Amazon Photo.
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 ```text
 .
@@ -33,7 +28,7 @@ EvGNN trains a multi-expert graph neural network under sparse and noisy supervis
 |-- configs.py            # Experiment presets
 |-- train.py              # Main training and evaluation loop
 |-- run.py                # Batch experiment launcher
-|-- model.py              # EvGNN model, losses, evidence fusion
+|-- model.py              # 🧭 EvGNN model, losses, evidence fusion
 |-- deepergnn.py          # GNN backbone components
 |-- aug.py                # Graph augmentation utilities
 |-- functional.py         # Graph drop/weight helpers
@@ -46,7 +41,7 @@ EvGNN trains a multi-expert graph neural network under sparse and noisy supervis
 
 The release intentionally excludes generated files such as Python caches, local IDE settings, previous result logs, trained checkpoints, t-SNE artifacts, and PyG `processed/` caches.
 
-## Installation
+## ⚙️ Installation
 
 Create a fresh environment with Python 3.8 or later.
 
@@ -64,7 +59,7 @@ pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geo
 
 See the official PyTorch Geometric installation guide for CUDA-specific wheels.
 
-## Data
+## 📊 Data
 
 The code supports six datasets used in the paper:
 
@@ -75,7 +70,7 @@ The code supports six datasets used in the paper:
 
 Lightweight raw files for Citeseer, PubMed, Cora, and DBLP are included under `data/`. PyTorch Geometric datasets such as Coauthor CS and Amazon Computers/Photo are downloaded and processed automatically under `data_test/` on first use.
 
-## Training
+## 🚀 Training
 
 Run a single experiment from the command line:
 
@@ -97,17 +92,18 @@ python run.py
 
 Checkpoints are saved to `save_models/<dataset>.pkl`.
 
-## Citation
+## 📚 Citation
 
 BibTeX:
 
 ```bibtex
-@article{yi2026evidenceguided,
-  title   = {Evidence-guided Learning against Noisy and Sparse Labels on Graphs},
-  author  = {Yi, Siyu and Zhang, Wei and Mao, Zhengyang and Zhou, Yongdao and Qiao, Ziyue and Shen, Li and Tao, Dacheng and Lv, Jiancheng and Ju, Wei},
-  journal = {Artificial Intelligence},
-  pages   = {104608},
-  year    = {2026}
+@article{yi2026evidence,
+  title={Evidence-guided Learning against Noisy and Sparse Labels on Graphs},
+  author={Yi, Siyu and Zhang, Wei and Mao, Zhengyang and Zhou, Yongdao and Qiao, Ziyue and Shen, Li and Tao, Dacheng and Lv, Jiancheng and Ju, Wei},
+  journal={Artificial Intelligence},
+  pages={104608},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
